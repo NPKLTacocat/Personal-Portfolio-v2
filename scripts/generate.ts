@@ -1,3 +1,9 @@
+// COMMENTED OUT - Uncomment when you set up these environment variables:
+// ASTRA_DB_API_ENDPOINT, ASTRA_DB_APPLICATION_TOKEN, ASTRA_DB_COLLECTION, OPENAI_API_KEY, UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN
+
+console.log("Skipping embeddings generation - environment variables not configured");
+
+/*
 import dotenv from "dotenv";
 dotenv.config({ path: ".env.local" });
 
@@ -64,3 +70,4 @@ async function generateEmbeddings() {
 }
 
 generateEmbeddings();
+*/

@@ -6,13 +6,26 @@ export async function POST(req: Request) {
   try {
     const { messages }: { messages: Message[] } = await req.json();
 
+    // COMMENTED OUT - Uncomment when you set up TACOS_API_URL and TACOS_API_KEY
+    /*
     const fastApiUrl = process.env.TACOS_API_URL || "http://localhost:8000";
     const apiKey = process.env.TACOS_API_KEY || "";
 
     if (!fastApiUrl || !apiKey) {
       throw new Error("Backend URL or API Key is not configured.");
     }
+    */
 
+    // Temporary response - remove this when uncommenting above
+    return new Response(
+      JSON.stringify({ error: "Chat service not configured yet - set up TACOS_API_URL and TACOS_API_KEY env variables" }),
+      {
+        status: 503,
+        headers: { "Content-Type": "application/json" },
+      },
+    );
+
+    /* COMMENTED OUT - Uncomment when you set up the API keys above
     const response = await fetch(`${fastApiUrl}/prompt`, {
       method: "POST",
       headers: {
@@ -63,6 +76,7 @@ export async function POST(req: Request) {
         "Cache-Control": "no-cache, no-transform",
       },
     });
+    */
   } catch (error) {
     console.error("[API Chat Route Error]", error);
     const errorMessage =

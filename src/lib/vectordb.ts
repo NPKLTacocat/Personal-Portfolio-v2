@@ -1,3 +1,5 @@
+// COMMENTED OUT - Uncomment when you set up AstraDB and OpenAI API keys
+/*
 import { DataAPIClient } from "@datastax/astra-db-ts";
 import { AstraDBVectorStore } from "@langchain/community/vectorstores/astradb";
 import { OpenAIEmbeddings } from "@langchain/openai";
@@ -29,4 +31,14 @@ export async function getEmbeddingsCollection() {
   const db = client.db(endpoint);
 
   return db.collection(collection);
+}
+*/
+
+// Temporary placeholder functions - remove these when uncommenting above
+export async function getVectorStore() {
+  throw new Error("Vector store not configured - uncomment the code above and set up env variables");
+}
+
+export async function getEmbeddingsCollection() {
+  throw new Error("Embeddings collection not configured - uncomment the code above and set up env variables");
 }
