@@ -36,6 +36,7 @@ export default function Home() {
             I came with a love for games, but stayed for the passion with full-stack development.
           </p>
 
+          {/*
           <div className="mt-6 flex items-center gap-1">
             <p className="text-balance text-sm font-semibold sm:text-base">
               For Q&A, start a chat with Khang Support
@@ -43,6 +44,7 @@ export default function Home() {
             <ArrowDownRight className="hidden size-5 animate-bounce sm:block" />
             <ArrowDown className="block size-5 animate-bounce sm:hidden" />
           </div>
+          */}
 
           <section className="mt-6 flex flex-wrap items-center gap-4">
             <Link href="/Khang Tran - Resume.pdf" target="_blank">
