@@ -1,15 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "tacos.tedawf.com",
-        port: "",
-        pathname: "/images/**",
-      },
-    ],
-  },
+  // No external image hosting needed - using local images from public/ folder
 };
 
 export default nextConfig;

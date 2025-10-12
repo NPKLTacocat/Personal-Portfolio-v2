@@ -1,5 +1,5 @@
 {
-  "name": "tedawf.com",
+  "name": "khangphutran.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -32,11 +32,9 @@
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
     "framer-motion": "^12.23.12",
-    "gray-matter": "^4.0.3",
     "langchain": "^0.3.2",
     "lucide-react": "^0.441.0",
     "next": "^14.2.12",
-    "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.4.6",
     "openai": "^4.61.1",
     "react": "^18",

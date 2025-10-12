@@ -12,10 +12,6 @@ const navLinks = [
     href: "/projects",
   },
   {
-    name: "blog",
-    href: "/blog",
-  },
-  {
     name: "contact",
     href: "/contact",
   },
@@ -34,7 +30,7 @@ export default function Header() {
             ))}
           </ul>
           <div className="flex gap-2 sm:gap-4">
-            <ChatToggle />
+            {/* <ChatToggle /> */}
             <ThemeToggle />
           </div>
         </nav>

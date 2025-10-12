@@ -1,70 +1,70 @@
 {
   "projects": [
     {
-      "name": "TT4D",
-      "description": "Generate winning combinations, view past results, and analyze lottery trends all in one place",
-      "image": "/img/tt4d.png",
+      "name": "ProfessionalAIze",
+      "description": "AI-powered writing assistant Chrome extension that helps users craft professional emails and messages with ease",
+      "image": "/img/professionalAIze.png",
       "tags": [
-        "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "NextJS",
-        "PostgreSQL",
-        "TailwindCSS",
-        "BS4"
+        "JavaScript",
+        "Node.js",
+        "React",
+        "MaterialUI",
+        "Manifest V3",
+        "Google Gemini API",
+        "Vite"
       ],
       "links": [
         {
-          "name": "Website",
-          "href": "https://huatnumbers.com",
-          "icon": "globe"
+          "name": "Demo",
+          "href": "https://www.youtube.com/watch?v=HfmrJnvLDO4",
+          "icon": "youtube"
         },
         {
           "name": "Source",
-          "href": "https://github.com/tedawf/tt4d",
-          "icon": "github"
-        },
-        {
-          "name": "Source (UI)",
-          "href": "https://github.com/tedawf/tt4d-web",
+          "href": "https://github.com/NPKLTacocat/ProfessionalAIze",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Tradingview Telegram Alerts",
-      "description": "Real-time trading alerts with chart snapshots sent to Telegram, designed to keep traders informed and responsive to market changes",
-      "image": "/img/tv-tele-alerts.png",
+      "name": "VocalSphere",
+      "description": "Fullstack audio social media web application that foster authentic connections through bite-sized audio clips",
+      "image": "/img/vocalsphere.png",
       "tags": [
         "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "Selenium",
-        "Telegram Bot API"
+        "Flask",
+        "MongoDB",
+        "RESTful API",
+        "JavaScript",
+        "React"
       ],
       "links": [
         {
+          "name": "Install and Demo",
+          "href": "https://www.youtube.com/watch?v=VSlAzqJ-mT0",
+          "icon": "youtube"
+        },
+        {
           "name": "Source",
-          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
+          "href": "https://github.com/NPKLTacocat/VocalSphere",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "NFTVue",
-      "description": "Non-Fungible Tokens (NFTs) Gallery Viewer website that allows users to connect their crypto wallets to view and verify their tokens",
-      "href": "https://nftvue.vercel.app",
-      "image": "/img/nftvue.png",
+      "name": "Twatter",
+      "description": "A fullstack Twitter clone web application with user authentication, encryption, and working tweet, like, following and notification systems",
+      "image": "/img/twatter.png",
       "tags": [
-        "NextJS",
+        "Node.js",
         "TailwindCSS",
-        "MetaMask",
-        "WalletConnect",
-        "Web3",
-        "NFTScan",
-        "HashKey DID"
+        "DaisyUI",
+        "MongoDB",
+        "Express.js",
+        "React",
+        "RESTful API",
+        "JavaScript",
+        "JWT"
       ],
       "links": [
         {
@@ -75,54 +75,45 @@
       ]
     },
     {
-      "name": "Portfolio 2023 (Outdated)",
-      "description": "Simple markdown portfolio made with Astro 🚀",
-      "href": "https://tedawf-dot-com.netlify.app",
-      "image": "/img/old-portfolio.png",
-      "tags": ["Astro", "TailwindCSS", "Netlify", "SEO"],
+      "name": "Portfolio 2024 (Outdated)",
+      "description": "Simple responsive markdown portfolio made with pure HTML and CSS",
+      "image": "/img/portfolio.png",
+      "tags": [
+        "HTML",
+        "CSS",
+        "SEO"
+      ],
       "links": [
         {
-          "name": "Website",
-          "href": "https://tedawf-dot-com.netlify.app",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
-          "href": "https://github.com/tedawf/portfolio-2023",
+          "href": "https://github.com/NPKLTacocat/Personal-Website",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Rapid Ride Fight (Final Year)",
-      "description": "3D capture-the-flag, multiplayer boat fighting, with smart AI and water graphics",
-      "href": "https://games.digipen.edu/games/rapid-ride-fight",
-      "image": "/img/rrf.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "3D"],
+      "name": "Social Network Analyzer",
+      "description": "A fun tool that analyzes and visualizes 130,000 Facebook pages to find the shortest chain of mutual connections between any two pages",
+      "image": "/img/socialnetworkanalyzer.png",
+      "tags": ["C/C++", "wxWidgets", "BFS", "Djikstra", "Graph Theory"],
       "links": [
         {
-          "name": "Gameplay",
+          "name": "Source",
           "href": "https://www.youtube.com/watch?v=bge3fiypg5U",
-          "icon": "youtube"
-        },
-        {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=PNAO-aI1Daw",
-          "icon": "youtube"
+          "icon": "github"
         }
       ]
     },
     {
-      "name": "Glowing Under (2nd Year)",
-      "description": "2D platformer with a focus on puzzle-solving, no-death exploration and storytelling",
-      "href": "https://games.digipen.edu/games/glowing-under",
-      "image": "/img/gu.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "2D"],
+      "name": "Minesweeper",
+      "description": "A faithful retro-styled recreation of the classic game, featuring a timer, leaderboard for competitive play, and a debug mode for testing strategies.",
+      "image": "/img/minesweeper.png",
+      "tags": ["C/C++", "SFML"],
       "links": [
         {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=u6RYwBZlSfg",
-          "icon": "youtube"
+          "name": "Source",
+          "href": "https://github.com/NPKLTacocat/Minesweeper-Project",
+          "icon": "github"
         }
       ]
     }

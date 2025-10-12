@@ -1,11 +1,9 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import SwipeCards from "@/components/SwipeCards";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
 import {
   ArrowDown,
   ArrowDownRight,
@@ -14,13 +12,10 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-const TED_BIRTH_YEAR = 1997;
+const KHANG_BIRTH_YEAR = 2004;
 const LIMIT = 2; // max show 2
 
-export default async function Home() {
-  const posts = (await getPosts())
-    .filter((post) => !post.draft)
-    .slice(0, LIMIT);
+export default function Home() {
 
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
@@ -29,42 +24,28 @@ export default async function Home() {
 
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
           <h1 className="title text-balance text-4xl sm:text-5xl">
-            hi ted here. 👋
+            hi khang here. 👋
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {new Date().getFullYear() - TED_BIRTH_YEAR}
-            yo software engineer from Singapore 🇸🇬
+            {new Date().getFullYear() - KHANG_BIRTH_YEAR}
+            yo software engineer from Vietnam 🇻🇳
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            Backend by trade, full-stack by passion. I build and self-host the
-            lot.
+            I came with a love for games, but stayed for the passion with full-stack development.
           </p>
 
           <div className="mt-6 flex items-center gap-1">
             <p className="text-balance text-sm font-semibold sm:text-base">
-              For Q&A, start a chat with Ted Support
+              For Q&A, start a chat with Khang Support
             </p>
             <ArrowDownRight className="hidden size-5 animate-bounce sm:block" />
             <ArrowDown className="block size-5 animate-bounce sm:hidden" />
           </div>
 
-          <p className="mt-1 text-xs font-light">
-            For escalations, please find my
-            <Link
-              href="https://www.instagram.com/gomugomu.cat"
-              target="_blank"
-              className="link font-semibold"
-              title="meow"
-            >
-              &nbsp;Ted Lead&nbsp;
-            </Link>
-            instead.
-          </p>
-
           <section className="mt-6 flex flex-wrap items-center gap-4">
-            <Link href="/resume.pdf" target="_blank">
+            <Link href="/Khang Tran - Resume.pdf" target="_blank">
               <Button variant="outline">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
@@ -90,18 +71,6 @@ export default async function Home() {
         <Projects limit={LIMIT} />
       </section>
 
-      <section className="flex flex-col gap-8">
-        <div className="flex justify-between">
-          <h2 className="title text-3xl">recent posts</h2>
-          <LinkWithIcon
-            href="/blog"
-            position="right"
-            icon={<ArrowRightIcon className="size-5" />}
-            text="view more"
-          />
-        </div>
-        <Posts posts={posts} />
-      </section>
     </article>
   );
 }
