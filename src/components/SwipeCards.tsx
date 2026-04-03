@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/Button";
-import { cn } from "@/lib/utils"; 
+import { cn } from "@/lib/utils";
 import { animate, motion, useMotionValue, useTransform } from "framer-motion";
 import { RefreshCw } from "lucide-react";
 import { Dispatch, SetStateAction, useState } from "react";
@@ -122,10 +122,14 @@ const cardData: Card[] = [
   },
   {
     id: 2,
-    url: "/img/khang-2.jpg",
+    url: "/img/khang-3.jpg",
   },
   {
     id: 3,
+    url: "/img/khang-2.jpg",
+  },
+  {
+    id: 4,
     url: "/img/khang.png",
   },
 ];

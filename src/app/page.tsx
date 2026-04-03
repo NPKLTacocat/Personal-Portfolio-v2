@@ -16,7 +16,6 @@ const KHANG_BIRTH_YEAR = 2004;
 const LIMIT = 2; // max show 2
 
 export default function Home() {
-
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
@@ -28,12 +27,12 @@ export default function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {new Date().getFullYear() - KHANG_BIRTH_YEAR}
-            yo software engineer from Vietnam 🇻🇳
+            Software engineer from Vietnam 🇻🇳
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            I came with a love for games, but stayed for the passion with full-stack development.
+            I came with a love for puzzle solving, but stayed for the passion
+            with full-stack development.
           </p>
 
           {/*
@@ -72,7 +71,6 @@ export default function Home() {
         </div>
         <Projects limit={LIMIT} />
       </section>
-
     </article>
   );
 }

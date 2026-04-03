@@ -1,6 +1,31 @@
 {
   "career": [
     {
+      "name": "UF Society of Asian Scientists & Engineers (UF SASE)",
+      "href": "https://ufsase.com/",
+      "title": "Backend Software Developer",
+      "logo": "/img/sase.jpg",
+      "start": "Sep 2025",
+      "description": [
+        "Developed and maintained the organization's website using React, TypeScript, and Hono (Bun), providing service to over 200 students at the University of Florida.",
+        "Optimized RESTful services with Redis caching, reducing average response time by 40%, ensuring high performance.",
+        "Implemented rate-limiting middleware, type-safe validation schemes (with Zod and TypeScript), and comprehensive unit/integration testing to ensure reliability and maintainability",
+        "Designed and optimized relational schemas in SQLite (Turso) with Drizzle ORM."
+      ]
+    },
+    {
+        "name": "UF Embedded Systems Lab",
+        "href": "https://www.cise.ufl.edu/research/cad/",
+        "title": "Undergraduate AI Researcher",
+        "logo": "/img/uf.jpg",
+        "start": "Sep 2025",
+        "end": "Jan 2026",
+        "description": [
+          "Assisted in research for a new Quantum AI architecture that can learn and reconstruct missing features of data samples.",
+          "Engineered patch selection and masking strategies using quantum circuits with Python, PyTorch, and PennyLane."
+        ]
+    },
+    {
       "name": "OSC MiniHack Hackathon",
       "href": "https://hack.ufosc.org/",
       "title": "Full Stack Developer",
@@ -8,20 +33,9 @@
       "start": "Sep 2025",
       "end": "Sep 2025",
       "description": [
+        "Recognized as 1 of 2 projects for Best Project Demo out of 53 submissions",
         "Developed a Chrome extension in 24 hours using React and Node.js that leverages Google Gemini AI to provide writing assistance on the fly with customizable tones and styles",
-        "In charge of AI integration, frontend development, and chrome extension conversion",
-        "Recognized as 1 of 2 projects for Best Project Demo out of 53 submissions"
-      ]
-    },
-    {
-      "name": "UF Sase",
-      "href": "https://ufsase.com/",
-      "title": "Backend Developer (Newly Joined)",
-      "logo": "/img/sase.jpg",
-      "start": "Sep 2025",
-      "description": [
-        "Selected to join the backend team, maintaining and extending the UF SASE website to support club operations.",
-        "Currently onboarding to the techstack (TypeScript, Hono, Turso, Drizzle, Bun) and preparing for future contributions"
+        "In charge of AI integration, frontend development, and chrome extension conversion"
       ]
     },
     {
